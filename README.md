@@ -39,8 +39,11 @@ public/
 
 All real content lives in `src/data/*.ts` — no content is hardcoded in components. To add a new project, add an entry to `src/data/projects.ts`; the grid and cards update automatically. Same pattern for experience, skills, and education.
 
+## Deployment
+
+Push the `main` branch to trigger the GitHub Pages workflow. In the repository settings, open **Pages** and set **Source** to **GitHub Actions**. The site will then be available at `https://karthikraja46.github.io/karthikraja46.github.io-main/` unless a custom domain is configured.
+
 ## Notes
 
 - The contact form opens the visitor's email client via a `mailto:` link (no backend/server is included). If you want it to submit directly without opening mail, wire the `handleSubmit` function in `src/sections/Contact.tsx` to a form backend (e.g. Formspree, Resend, or your own API).
 - Phone number is intentionally left off the public Contact section for privacy — only email, LinkedIn, and GitHub are shown. Add it in `src/data/profile.ts` and `src/sections/Contact.tsx` if you'd like it public.
-- To deploy on GitHub Pages (matching your existing `karthikraja46.github.io` portfolio URL), run `npm run build` and publish the contents of `dist/` to the `gh-pages` branch or your Pages source.
