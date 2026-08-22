@@ -53,44 +53,4 @@ export const projects: Project[] = [
     stack: ["Pytest", "Postman", "JSON Schema", "GitHub Actions"],
     github: "https://github.com/karthikraja46",
   },
-  {
-    id: "llm-extraction-pipeline",
-    title: "LLM-Based Document Extraction Pipeline",
-    tag: "AI/LLM-assisted automation",
-    status: "shipped",
-    description:
-      "A LangChain-based pipeline that extracts structured data from unstructured documents using hierarchical chunking and few-shot prompting, feeding downstream analytics workflows.",
-    problem:
-      "Manual data extraction from documents was slowing down downstream analytics, with inconsistent output structure between runs.",
-    solution:
-      "Engineered a Python and LangChain pipeline with hierarchical chunking and few-shot prompt templates, enforcing structured schema validation so every extraction produces consistent, analytics-ready output.",
-    features: [
-      "Hierarchical chunking for long, unstructured documents",
-      "Few-shot prompt templates for consistent extraction quality",
-      "Structured schema validation on every model output",
-      "Increased data ingestion efficiency by 25%",
-    ],
-    stack: ["LangChain", "Python", "Prompt Engineering", "Structured Output Validation"],
-    github: "https://github.com/karthikraja46",
-  },
-  {
-    id: "yolo-object-detection",
-    title: "YOLO-Based Object Detection",
-    tag: "Computer vision · independent project",
-    status: "exploring",
-    description:
-      "An independent computer vision project training and evaluating YOLOv8/YOLO11 object detection models, with explainability layered in via Eigen-CAM.",
-    problem:
-      "Wanted hands-on depth in the model-training side of ML — data preparation, augmentation, and evaluation — beyond consuming pre-trained models.",
-    solution:
-      "Trained and evaluated YOLOv8 / YOLO11 models in PyTorch, using data augmentation to improve robustness, and applied Eigen-CAM to visualize what the model was attending to during detection.",
-    features: [
-      "Custom dataset preparation and augmentation",
-      "Model training and evaluation with YOLOv8 / YOLO11",
-      "Explainability via Eigen-CAM visualizations",
-      "Built in PyTorch end-to-end",
-    ],
-    stack: ["YOLOv8", "YOLO11", "PyTorch", "Eigen-CAM", "Python"],
-    github: "https://github.com/karthikraja46",
-  },
 ];
