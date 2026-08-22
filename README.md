@@ -41,7 +41,7 @@ All real content lives in `src/data/*.ts` — no content is hardcoded in compone
 
 ## Deployment
 
-Push the `main` branch to trigger the GitHub Pages workflow. In the repository settings, open **Pages** and set **Source** to **GitHub Actions**. The site will then be available at `https://karthikraja46.github.io/karthikraja46.github.io-main/` unless a custom domain is configured.
+Rename the repository to `karthikraja46.github.io`, then push the `main` branch to trigger the GitHub Pages workflow. In the repository settings, open **Pages** and set **Source** to **GitHub Actions**. The site will then be available at `https://karthikraja46.github.io/`.
 
 ## Notes
 

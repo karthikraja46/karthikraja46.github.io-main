@@ -32,8 +32,6 @@ jobs:
 
       - name: Build
         run: npm run build
-        env:
-          BASE_PATH: /karthikraja46.github.io-main/
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
